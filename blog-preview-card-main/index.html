@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+  background-color: rgb(228, 204, 72);
+  font-family: "Figtree", sans-serif;
+  display: flex; /* Habilita Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+  margin: 0; /* Elimina márgenes predeterminados */
+}
+    .recuadro {
+    background-color: white; 
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 340px;
+    max-height: 500px; 
+    box-shadow: 10px 10px 0px rgba(1, 1, 1, 2); /* Sombra solo a la derecha */
+    border: 1px solid black; /* Contorno negro de 2px */
+  }
+  .foto {
+    text-align: center;
+  }
+  .foto img{
+    border-radius: 15px;
+    width: 340px;
+  }
+  .bodyp1{
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .highlight {
+  background-color: rgb(219, 219, 82); /* Fondo amarillo */
+  border-radius: 4px; /* Bordes curvos */
+  padding: 6px 8px; /* Espaciado interno alrededor del texto */
+}
+.persona {
+  display: flex; /* Activa Flexbox */
+  align-items: center; /* Alinea verticalmente al centro */
+  gap: 10px; /* Espaciado entre la imagen y el texto */
+  font-size: 14px;
+}
+
+.persona img {
+  width: 40px;
+  height: 40px; /* Asegura que la imagen sea cuadrada */
+}
+  .bodyp2{
+    font-size: 15px;
+  }
+  .bodyp3{
+    font-size: 27px;
+  }
+  .bodyp4{
+    color: rgb(115, 117, 117);
+  }
+
+  </style>
+</head>
+<body>
+  <div class="recuadro">
+
+    <div class="foto">
+    <img src="./assets/images/illustration-article.svg">
+    </div>
+  
+    <p class="bodyp1"><span class="highlight"><b>Learning</b></span></p>
+
+  <p class= "bodyp2">Published 21 Dec 2023</p>
+
+  <p class= "bodyp3"><b>HTML & CSS foundations</b></p>
+
+  <p class= "bodyp4">These languages are the backbone of every website, defining structure, content, and presentation.<p>
+  <div class = "persona">
+    <img src="./assets/images/image-avatar.webp">
+    <p5><b>Greg Hooper</b></p5>
+  </div>
+  
+</body>
+</html>
